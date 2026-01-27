@@ -1,0 +1,5 @@
+openai==1.107.3
+rich
+jsonschema
+scipy
+dotenv

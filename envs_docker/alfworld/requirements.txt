@@ -1,0 +1,11 @@
+alfworld[full]
+python-dotenv
+attrs
+typing
+openai
+jsonschema
+colorlog
+langchain
+langchain-chroma
+chromadb
+finch-clust

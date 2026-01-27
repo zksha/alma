@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=58.0.0", "wheel"]
+
+[tool.black]
+line-length = 120
+target-version = ['py38']  # Adjust this to your Python version(s)
+# You can include other black settings as needed
+
+[tool.isort]
+profile = "black"
+line_length = 120
+# This ensures isort is compatible with black's formatting
+
+[tool.flake8]
+max-line-length = 120
+ignore = [
+    "E501",  # Line too long (handled by max-line-length)
+    "F401",  # Module imported but unused
+    "E203",  # Whitespace before ':', conflicts with black
+    "W503",  # Line break before binary operator, black prefers this
+    "E126",  # Continuation line over-indented
+    "E722"   # Do not use bare 'except'
+]
+exclude = [
+    ".git",
+    "__pycache__",
+    "docs/source/conf.py",
+    "old",
+    "build",
+    "dist"
+]

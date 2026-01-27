@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.env/
+venv/
+*.conda
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Evaluation / data
+evals/data/*
+
+# Logs
+logs/*
+evals/logs/*
+
+# Memo archives
+memo_archive/alfworld/*
+memo_archive/textworld/*
+memo_archive/babaisai/*
+memo_archive/minihack/*
+
+# Plots
+plots/*
+
+# OS / editor files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/

@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
+
+jobs:
+  Test:
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        include:
+          - os: ubuntu-latest
+            arch: x64
+            runner: ubuntu-latest
+          - os: ubuntu-latest
+            arch: arm64
+            runner: ubuntu-latest
+          - os: macos-latest
+            arch: arm64
+            runner: macos-latest
+    runs-on: ${{ matrix.runner }}
+    continue-on-error: false
+    steps:
+      - uses: actions/checkout@v3
+        
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+          
+      - name: Setup BALROG
+        run: |
+          pip install balrog-nle
+          pip install -e . -v
+          balrog-post-install
+
+      - name: Check code quality
+        run: |
+          pip install pylint
+          MESSAGE=$(pylint -ry $(git ls-files '*.py') ||:)
+          echo "$MESSAGE"
+
+      - name: Run unit tests with pytest
+        run: |
+          cd balrog
+          wandb offline
+          pytest tests/test_evaluation.py

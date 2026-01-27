@@ -1,0 +1,9 @@
+character: "@"
+max_episode_steps: 1000000
+penalty_step: -1       
+penalty_time: 0.0           
+penalty_mode: constant      
+savedir: null
+save_ttyrec_every: 0
+autopickup: False           
+skip_more: True
