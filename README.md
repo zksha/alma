@@ -6,8 +6,8 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge"></a>
+  <a href="https://yimingxiong.me/alma"><img src="https://img.shields.io/badge/-Website-%238D6748?style=for-the-badge&logo=Website&logoColor=white"></a>
   <!-- <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg?logo=arxiv&style=for-the-badge"></a>
-  <a href="https://your-website.com"><img src="https://img.shields.io/badge/-Website-%238D6748?style=for-the-badge&logo=Website&logoColor=white"></a>
   <a href="https://twitter.com/your_handle"><img src="https://img.shields.io/badge/twitter-%230077B5.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=00acee"></a> -->
 </p>
 
@@ -17,8 +17,9 @@ This project introduces **ALMA** (**A**utomated meta-**L**earning of **M**emory 
 <p align="center">
   <img src="misc/main_workflow.png" width="90%" /><br>
   <em>Open-ended Exploration Process of ALMA.
-The Meta Agent first ideates and proposes a plan by reflecting on the code and evaluation logs of the sampled memory design. It then implements the plan by programming the new design in code. Finally, it verifies the correctness of the new memory design and evaluates it with an agentic system. The evaluated memory design is subsequently added to the memory design archive for future sampling.</em>
+</em>
 </p>
+The Meta Agent first ideates and proposes a plan by reflecting on the code and evaluation logs of the sampled memory design. It then implements the plan by programming the new design in code. Finally, it verifies the correctness of the new memory design and evaluates it with an agentic system. The evaluated memory design is subsequently added to the memory design archive for future sampling.
 
 <div style="background-color: #f6f8fa; border: 1px solid #d1d5da; border-radius: 6px; padding: 16px;">
   <span style="font-size: 0.95em; color: #586069;">
@@ -248,7 +249,7 @@ To extend the benchmark to a new domain:
 
 ## Acknowledgements
 
-This project builds upon research in agentic systems, automated machine learning, and foundation models. We thank the broader AI community and the developers of AlfWorld, TextWorld, BabaisAI, and MiniHack for providing evaluation benchmarks.
+This research was supported by the Vector Institute, the Canada CIFAR AI Chairs program, a grant from Schmidt Futures, an NSERC Discovery Grant, and a generous donation from Rafael Cosman. Resources used in preparing this research were provided, in part, by the Province of Ontario, the Government of Canada through CIFAR, and companies sponsoring the Vector Institute (https://vectorinstitute.ai/partnerships/current-partners/). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the sponsors.
 
 ---
 
