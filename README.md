@@ -8,7 +8,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge"></a>
   <a href="https://yimingxiong.me/alma"><img src="https://img.shields.io/badge/-Website-%238D6748?style=for-the-badge&logo=Website&logoColor=white"></a>
   <a href="https://arxiv.org/pdf/2602.07755"><img src="https://img.shields.io/badge/arXiv-2602.07755-b31b1b.svg?logo=arxiv&style=for-the-badge"></a>
-  <!-- <a href="https://twitter.com/your_handle"><img src="https://img.shields.io/badge/twitter-%230077B5.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=00acee"></a> -->
+  <a href="https://x.com/jeffclune/status/2021242681826095179"><img src="https://img.shields.io/badge/twitter-%230077B5.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=00acee"></a>
 </p>
 
 ## Overview
