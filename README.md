@@ -186,7 +186,7 @@ To extend the benchmark to a new domain:
     Our learned memory designs consistently outperform state-of-the-art human-designed memory across all benchmarks.
   </b><br>
   <span style="color:#555">
-    Numbers indicate <i>overall success rate</i> (higher is better). Improvements are relative to the no-memory baseline.
+    Numbers indicate <i>overall success rate</i> in percentage (higher is better). Improvements are relative to the no-memory baseline.
   </span>
 </p>
 <div align="center">
