@@ -11,6 +11,14 @@
   <a href="https://x.com/jeffclune/status/2021242681826095179"><img src="https://img.shields.io/badge/twitter-%230077B5.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=00acee"></a>
 </p>
 
+<h3 align="center">
+  🏆 <strong>ICLR 2026 Workshop: AI with Recursive Self-Improvement (Oral)</strong>
+</h3>
+
+<h3 align="center">
+  🏆 <strong>ICLR 2026 Workshop: MemAgents (Oral)</strong>
+</h3>
+
 ## Overview
 This project introduces **ALMA** (**A**utomated meta-**L**earning of **M**emory designs for **A**gentic systems), a framework that meta-learns memory designs to replace hand-engineered memory designs, therefore minimizing human effort and enabling agentic systems to be continual learners across diverse domains. ALMA employs a Meta Agent that searches over memory designs expressed as executable code in an open-ended manner, theoretically allowing the discovery of arbitrary memory designs, including database schemas as well as their retrieval and update mechanisms.
 
