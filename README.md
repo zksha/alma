@@ -4,6 +4,8 @@
   <b>Learning to Continually Learn via Meta-learning Agentic Memory Designs</b><br>
 </h1>
 
+<h3 align="center">NeurIPS 2026</h3>
+
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge"></a>
   <a href="https://yimingxiong.me/alma"><img src="https://img.shields.io/badge/-Website-%238D6748?style=for-the-badge&logo=Website&logoColor=white"></a>
